@@ -1,5 +1,5 @@
-name: NameFixer
-main: JackMD\NameFixer\Main
+name: NameSpaceRemover
+main: JackMD\NameSpaceRemover\Main
 api: [3.0.0]
 version: 1.0.0
 author: JackMD
