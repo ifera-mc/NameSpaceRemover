@@ -1,0 +1,6 @@
+name: NameFixer
+main: JackMD\NameFixer\Main
+api: [3.0.0]
+version: 1.0.0
+author: JackMD
+description: Stop players from having spaces in their name.
