@@ -11,7 +11,7 @@ declare(strict_types = 1);
  *                                  | |
  *                                  |_|
  *
- * NameSpaceRemover, a Scoreboard plugin for PocketMine-MP
+ * NameSpaceRemover, a NameSpaceRemover plugin for PocketMine-MP
  * Copyright (c) 2018 JackMD  < https://github.com/JackMD >
  *
  * Discord: JackMD#3717
@@ -109,6 +109,6 @@ class CustomPlayer extends Player{
 	 * @return bool
 	 */
 	private function hasSpaces(string $string): bool{
-		return $string === trim($string) && strpos($string, ' ') !== false;
+		return strpos($string, ' ') !== false;
 	}
 }
